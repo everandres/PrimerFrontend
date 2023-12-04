@@ -1,0 +1,17 @@
+@keyframes girar {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.card {
+  /* ... tus otros estilos ... */
+  animation: girar 3s infinite linear;
+}
+
+body {
+  background-color: #3080b1;
+}
