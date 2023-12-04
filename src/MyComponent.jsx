@@ -42,7 +42,7 @@ export const MyComponent = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await useFetch("https://reqres.in/api/users");
+      const result = await useFetch("https://reqres.in/api/users?page=1&per_page=2");
       setData(result);
     };
 
